@@ -5,7 +5,7 @@ Após isso, extrai-se as caracteristicas da foto de referência da pessoa a ser 
 # Como testar:
 1: Instalar 'Desktop development with C++ em https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-2: Instalar as depêndencias do 'requirements.txt'
+2: Instalar as depêndencias do 'requirements.txt' (pip install -r requirements.txt)
 
 2: Colocar as todas as fotos na pasta 'fotos', e a foto de referencia na pasta referencia.
 
