@@ -1,4 +1,0 @@
-Então basicamente o código funciona primeiro serializando a imagem da pessoa X em um numpy array, e depois passando essa serialização para a função face_encondings que tem a função de para cada rosto encontrado na imagem, retornar suas respectivas caracteristicas.
-Depois ela retorna as caracteristicas da primeira pessoa encontrada.
-
-Logo em seguida, realiza um loop para cada imagem do conjunto Y, faz o mesmo processo anterior e compara a distancia enclidiana dos dois rostos e compara com um treshold pre estabelecido.
