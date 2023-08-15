@@ -1,6 +1,10 @@
 # Funcionamento:
-Apartir de um conjunto de fotos localizados na pasta 'fotos', são detectados as coordenadas dos rostos em cada uma delas, e extrai-se as caracteristicas de cada rosto onde os mesmos são armazenados em um arquivo serializado pickle com seu respectivo filename.
-Após isso, extrai-se as caracteristicas da foto de referência da pessoa a ser encontrada e compara-se a distancia euclidiana das caracteristicas da pessoa X, com as de cada rosto encntrado no conjunto de fotos.
+A partir de um conjunto de fotografias localizado na pasta 'fotos', realizamos a detecção das coordenadas dos rostos presentes em cada imagem. Posteriormente, procedemos com a extração das características distintivas de cada rosto, as quais são armazenadas em um arquivo serializado no formato pickle, juntamente com o nome do arquivo correspondente.
+
+Após essa etapa, efetuamos a extração das características do rosto da pessoa de referência que desejamos encontrar. Em seguida, realizamos a comparação utilizando a distância euclidiana entre as características do indivíduo X e as características de cada rosto identificado no conjunto de fotografias.
+
+Essa análise nos permite identificar possíveis correspondências, considerando a proximidade das características faciais. Dessa forma, é possível determinar quais rostos nas fotografias se assemelham ao da pessoa de referência, facilitando a localização desejada.
+
 
 # Como testar:
 1: Instalar 'Desktop development with C++ em https://visualstudio.microsoft.com/visual-cpp-build-tools/
