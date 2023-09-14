@@ -1,16 +1,16 @@
-# Funcionamento:
-A partir de um conjunto de fotografias localizado na pasta 'fotos', realizamos a detecção das coordenadas dos rostos presentes em cada imagem. Posteriormente, procedemos com a extração das características distintivas de cada rosto, as quais são armazenadas em um arquivo serializado no formato pickle, juntamente com o nome do arquivo correspondente.
+# How it works:
+From a set of photographs located in the 'fotos' folder, we detect the coordinates of the faces in each image. We then extract the distinctive features of each face, which are stored in a serialized file in pickle format, along with the name of the corresponding file.
 
-Após essa etapa, efetuamos a extração das características do rosto da pessoa de referência que desejamos encontrar. Em seguida, realizamos a comparação utilizando a distância euclidiana entre as características do indivíduo X e as características de cada rosto identificado no conjunto de fotografias.
+After this stage, we extract the features of the face of the reference person we want to find. We then compare the Euclidean distance between the features of individual X and the features of each face identified in the set of photographs.
 
-Essa análise nos permite identificar possíveis correspondências, considerando a proximidade das características faciais. Dessa forma, é possível determinar quais rostos nas fotografias se assemelham ao da pessoa de referência, facilitando a localização desejada.
+This analysis allows us to identify possible matches, taking into account the proximity of the facial features. In this way, it is possible to determine which faces in the photographs are similar to those of the reference person, facilitating the desired location.
 
 
-# Como testar:
-1: Instalar 'Desktop development with C++ em https://visualstudio.microsoft.com/visual-cpp-build-tools/
+#How to test it:
+1: Install 'Desktop development with C++' from https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-2: Instalar as depêndencias do 'requirements.txt' (pip install -r requirements.txt)
+2: Install the 'requirements.txt' dependencies (pip install -r requirements.txt)
 
-2: Colocar as todas as fotos na pasta 'fotos', e a foto de referencia na pasta referencia.
+2: Put all the photos in the 'fotos' folder, and the reference photo in the reference folder.
 
-3: Rodar o features_to_file.py e depois o find_photos, as fotos onde a pessoa de referêcia aparece irão aparecer na pasta 'correspondencias'.
+3: Run features_to_file.py and then find_photos, the photos where the reference person appears will appear in the 'correspondencias' folder.
