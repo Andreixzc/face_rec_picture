@@ -6,7 +6,7 @@ After this stage, we extract the features of the face of the reference person we
 This analysis allows us to identify possible matches, taking into account the proximity of the facial features. In this way, it is possible to determine which faces in the photographs are similar to those of the reference person, facilitating the desired location.
 
 
-#How to test it:
+# How to test it:
 1: Install 'Desktop development with C++' from https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
 2: Install the 'requirements.txt' dependencies (pip install -r requirements.txt)
